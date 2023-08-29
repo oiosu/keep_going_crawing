@@ -18,5 +18,6 @@ function CellMerge(Table, ColIdx) {
     });
 
   $(Table).find("td[remove]").remove();
+
 }
 CellMerge($("#Ratio1"), 0);
